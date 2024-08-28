@@ -113,7 +113,7 @@ global styles
 */
 html,
 body {
-  background: #fdf3e3;
+  background: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -248,15 +248,15 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #fff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #0a5694!important;
+  color: #000000!important;
 }
 
 .background-header .nav li a.active {
-  color: #0a5694!important;
+  color: #000!important;
 }
 
 .header-area {
@@ -297,7 +297,7 @@ header
   margin-top: 27px;
   margin-left: 15%;
   margin-right: 0px;
-  background-color: #fff;
+  background-color: rgba(6, 61, 180, 0.89);
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -306,6 +306,9 @@ header
   position: relative;
   z-index: 999;
   border-radius: 20px;
+}
+.header-area .main-nav .nav:hover{
+background-color: rgb(30, 90, 219);
 }
 
 .header-area .main-nav .nav li {
@@ -321,7 +324,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #7a7a7a;
+  color: white;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -334,7 +337,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #0a5694;
+  color: #000;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -540,7 +543,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #0a5694;
+  color: #000;
 }
 
 @media (max-width: 1200px) {
@@ -999,7 +1002,7 @@ footer .footer-content {
   padding: 45px;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 5px 5px #00000054;
   
 }
 
@@ -1011,7 +1014,7 @@ footer .right-content {
 .contact-form textarea {
   color: #777;
   font-size: 13px;
-  border: 1px solid #eee;
+  border: 1px solid #0a5694;
   background-color: #f7f7f7;
   border-radius: 5px;
   width: 100%;
