@@ -51,6 +51,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
   height: 0;
 }
 
+#logo-ranchapp{
+  max-width: 80vw;
+}
 .clearfix {
   display: inline-block;
 }
@@ -162,6 +165,11 @@ a.main-button-slider:hover {
   background-color: #0468ff;
 }
 
+@media(max-width:1300px){
+  a.main-button-slider{
+    font-size: 10px;
+  }
+}
 a.main-button {
   font-size: 14px;
   border-radius: 25px;
